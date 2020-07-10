@@ -10,11 +10,14 @@
 .board {
   width: 100%;
   max-width: 700px;
-  background: #000;
+  background: url(img/Board.png) no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
   font-size: 2rem;
-  color: #979a34;
+  color: yellow;
   padding: 1rem;
-  font-family: Familiada;
+  font-family: Messe Duesseldorf;
   display: flex;
 }
 
